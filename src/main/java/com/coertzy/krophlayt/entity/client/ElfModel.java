@@ -1,12 +1,13 @@
 package com.coertzy.krophlayt.entity.client;
 
-import com.coertzy.krophlayt.KrophMain;
 import com.coertzy.krophlayt.entity.custom.Elf;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
 import software.bernie.geckolib3.core.processor.IBone;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 import software.bernie.geckolib3.model.provider.data.EntityModelData;
+
+import static com.coertzy.krophlayt.KrophMain.MOD_ID;
 
 public class ElfModel extends AnimatedGeoModel<Elf> {
 
@@ -25,7 +26,7 @@ public class ElfModel extends AnimatedGeoModel<Elf> {
 
     @Override
     public ResourceLocation getModelLocation(Elf object) {
-        return new ResourceLocation(KrophMain.MOD_ID, "geo/elf.geo.json");
+        return new ResourceLocation(MOD_ID, "geo/elf.geo.json");
     }
 
     @Override
@@ -35,6 +36,6 @@ public class ElfModel extends AnimatedGeoModel<Elf> {
 
     @Override
     public ResourceLocation getAnimationFileLocation(Elf animatable) {
-        return new ResourceLocation(KrophMain.MOD_ID, "animations/elf.animation.json");
+        return new ResourceLocation(MOD_ID, "animations/elf.animation.json");
     }
 }
