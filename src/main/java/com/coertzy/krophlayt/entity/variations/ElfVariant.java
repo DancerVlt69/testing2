@@ -1,4 +1,4 @@
-package com.coertzy.krophlayt.entity.variatons;
+package com.coertzy.krophlayt.entity.variations;
 
 import java.util.Arrays;
 import java.util.Comparator;
