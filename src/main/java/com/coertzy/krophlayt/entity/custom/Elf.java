@@ -1,7 +1,7 @@
 package com.coertzy.krophlayt.entity.custom;
 
 import com.coertzy.krophlayt.entity.KrophEntityTypes;
-import com.coertzy.krophlayt.entity.variatons.ElfVariant;
+import com.coertzy.krophlayt.entity.variations.ElfVariant;
 import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
